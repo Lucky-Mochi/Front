@@ -70,7 +70,7 @@ function Chat() {
         if (selectedData) {
             try {
                 setChatroomid(selectedData.idChatRoom);
-                navigate('/chatroom',{ state: { chatRoomId:selectedData.idChatRoom  } })
+                navigate('/chatroom',{ state: { chatRoomId:selectedData.idChatRoom, userNick:selectedData.mentoNick } })
             } catch (error) {
                 console.error('Error fetching mypage data:', error);
             }
