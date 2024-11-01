@@ -27,7 +27,9 @@ function Mypage(){
             subjectTag:"",
             temperature:0
         },
-        Mentorings: []
+        Mentorings: [
+        
+        ]
     });
     useEffect(() => {
         // 로컬 스토리지에서 토큰 읽어오기
