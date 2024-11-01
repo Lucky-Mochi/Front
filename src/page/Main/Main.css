@@ -1,257 +1,537 @@
 .Main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 390px;
-    height: 100vh;
-   /* Prevents the overall page from scrolling */
-}
 
-.content-wrapper{
     display: flex;
+    
     flex-direction: column;
+    
     align-items: center;
+    
     width: 100%;
+    
     max-width: 390px;
+    
+    height: 100vh;
+    
+    /* Prevents the overall page from scrolling */
+    
+    }
+    
+      
+    
+    .content-wrapper{
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    align-items: center;
+    
+    width: 100%;
+    
+    max-width: 390px;
+    
     flex-grow: 1;
+    
     overflow-y: auto;
+    
     padding-bottom: 98px; /* Offset to prevent content from going behind the nav bar */
     
+    }
     
-}
-
-.header {
+      
+    
+    .header {
+    
     display: flex;
+    
     justify-content: space-between;
+    
     width: 374px;
+    
     margin-top: 20px;
-
-
-}
-
-.main-logo {
+    
+      
+      
+    
+    }
+    
+      
+    
+    .main-logo {
+    
     width: 50px;
+    
     height: 50px;
+    
     background-image: url('../../asset/damento_2.png');
+    
     background-size: contain;
+    
     background-repeat: no-repeat;
+    
     margin-left: 10px;
     
-}
-
-.notification {
+    }
+    
+      
+    
+    .notification {
+    
     margin-top:10px;
+    
     width: 40px;
+    
     height: 40px;
+    
     background-image: url('../../asset/Notification.png');
+    
     background-size: contain;
+    
     background-repeat: no-repeat;
+    
     margin-right: 15px;
-}
-
-.game-section {
-    width: 90%;
-    height: 450px;
-    background-color:#FFEFC2;
-    margin-top: 30px ;
-    border-radius: 8px;
-    box-shadow: 0px 0px 5px #444;
-}
-
-/* Feature Section */
-.feature-section {
+    
+    }
+    
+      
+    
+    .game-section {
+    
     display: flex;
-    justify-content: space-around;
-    width: 95%;
-    margin: 25px 0;
-}
-
-.feature {
-    width: 150px;
-    height: 100px;
-    text-align: center;
-    border: none;
+    
+    flex-direction: column;
+    
+    align-items: center;
+    
+    width: 90%;
+    
+    background-color:#FFEFC2;
+    
+    margin-top: 30px ;
+    
     border-radius: 8px;
+    
+    box-shadow: 0px 0px 5px #444;
+    
+    text-align: center;
+    
+    justify-content: space-around;
+    
+    }
+    
+      
+    
+    #game{
+    
+    font-family: 'NoonnuBasicGothicRegular';
+    
+    border-radius: 8px;
+    
+    width:140px;
+    
+    height: 30px;
+    
+    margin : 10px;
+    
+    margin-bottom: 50px;
+    
+    }
+    
+      
+    
+    #gamename{
+    
+    font-family: 'NoonnuBasicGothicRegular';
+    
+    margin-bottom:50px;
+    
+    font-size: 40px;
+    
+    }
+    
+      
+    
+    /* Feature Section */
+    
+    .feature-section {
+    
+    display: flex;
+    
+    justify-content: space-around;
+    
+    width: 95%;
+    
+    margin: 25px 0;
+    
+    }
+    
+      
+    
+    .feature {
+    
+    width: 150px;
+    
+    height: 100px;
+    
+    text-align: center;
+    
+    border: none;
+    
+    border-radius: 8px;
+    
     padding: 8px;
+    
     cursor: pointer;
-}
-
-.feature-image {
+    
+    }
+    
+      
+    
+    .feature-image {
+    
     width: 40px;
+    
     height: 40px;
+    
     margin: 0 auto;
-}
-
-#mentoring-image {
+    
+    }
+    
+      
+    
+    #mentoring-image {
+    
     background-image: url('../../asset/my-mentoring.png');
+    
     width:160px;
+    
     height:115px;
     
-}
-
-#find-image {
+    }
+    
+      
+    
+    #find-image {
     
     background-image: url('../../asset/find_mento.png');
+    
     width:160px;
+    
     height:115px;
-
-}
-
-.feature-text {
+    
+      
+    
+    }
+    
+      
+    
+    .feature-text {
+    
     font-weight: bold;
+    
     margin-top: 8px;
-}
-
-.feature-description {
+    
+    }
+    
+      
+    
+    .feature-description {
+    
     font-size: 12px;
+    
     color: #555;
-}
-
-/* QnA Section */
-.qna-section {
+    
+    }
+    
+      
+    
+    /* QnA Section */
+    
+    .qna-section {
+    
     width: 90%;
+    
     padding: 0px;
+    
     background-color: #ffe0b2;
+    
     border : none;
+    
     border-radius: 8px;
+    
     text-align: center;
+    
     margin-bottom: 16px;
+    
     cursor: pointer;
-}
-
-#qna-image {
+    
+    }
+    
+      
+    
+    #qna-image {
+    
     width:344px;
+    
     height:80px;
-
+    
+      
+    
     background-image: url('../../asset/Qna.png');
+    
     background-size: contain;
+    
     background-repeat: no-repeat;
-}
-
-.qna-text {
+    
+    }
+    
+      
+    
+    .qna-text {
+    
     font-weight: bold;
+    
     margin-top: 8px;
-}
-
-.qna-description {
+    
+    }
+    
+      
+    
+    .qna-description {
+    
     font-size: 12px;
+    
     color: #555;
-}
-
-/* Navigation Bar */
-#navi-con {
+    
+    }
+    
+      
+    
+    /* Navigation Bar */
+    
+    #navi-con {
+    
     height: 98px;
-}
-
-#navi {
+    
+    }
+    
+      
+    
+    #navi {
+    
     width: 100%;
+    
     max-width: 390px;
+    
     height: 98px;
+    
     display: flex;
+    
     justify-content: space-around;
+    
     align-items: center;
+    
     background-color: #D9D9D9;
+    
     position: fixed;
+    
     bottom: 0px;
-}
-
-#home, #chat, #search, #mypage {
-
+    
+    }
+    
+      
+    
+    #home, #chat, #search, #mypage {
+    
+      
+    
     background-size: contain;
+    
     background-repeat: no-repeat;
+    
     border: none;
+    
     background-color: #D9D9D9;
-}
-
-#home{
+    
+    }
+    
+      
+    
+    #home{
+    
     margin-left: 32px;
+    
     width: 40px;
+    
     height: 55px;
+    
     background-image: url('../../asset/home_select.png');
+    
     background-repeat: no-repeat;
+    
     background-size: contain;
+    
     border: none;
+    
     background-color: #D9D9D9;
-  }
-  #chat{
-   
+    
+    }
+    
+    #chat{
+    
     width: 40px;
+    
     height: 55px;
+    
     background-image: url('../../asset/chat.png');
+    
     background-repeat: no-repeat;
+    
     background-size: contain;
+    
     border: none;
+    
     background-color: #D9D9D9;
-
-  }
-  #search{
+    
+      
+    
+    }
+    
+    #search{
+    
     width: 51px;
+    
     height: 55px;
+    
     background-image: url('../../asset/search.png');
+    
     background-repeat: no-repeat;
+    
     background-size: contain;
+    
     border: none;
+    
     background-color: #D9D9D9;
-  }
-  #mypage{
+    
+    }
+    
+    #mypage{
+    
     width: 49px;
+    
     height: 55px;
+    
     background-image: url('../../asset/mypage.png');
+    
     background-repeat: no-repeat;
+    
     background-size: contain;
+    
     margin-right: 32px;
+    
     border: none;
+    
     background-color: #D9D9D9;
-  }
-  /* Popup Overlay */
-.popup-overlay {
+    
+    }
+    
+    /* Popup Overlay */
+    
+    .popup-overlay {
+    
     font-family: 'NoonnuBasicGothicRegular';
+    
     position: fixed;
+    
     top: 0;
+    
     left: 0;
+    
     width: 100%;
+    
     height: 100%;
+    
     display: flex;
+    
     align-items: center;
+    
     justify-content: center;
+    
     z-index: 1000;
-}
-
-/* Popup Content */
-.popup-content {
+    
+    }
+    
+      
+    
+    /* Popup Content */
+    
+    .popup-content {
+    
     position: relative; /* To allow absolute positioning of close-button */
+    
     display: flex;
+    
     flex-direction: column;
+    
     justify-content: space-between;
+    
     align-items: center;
+    
     background-color: #f8f8f8;
+    
     padding: 20px;
+    
     border-radius: 8px;
+    
     border-style: solid;
+    
     border-width: 5px;
+    
     border-color: #FFCE47;
+    
     width: 320px;
+    
     height: 500px;
+    
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Close Button */
-.close-button {
+    
+    }
+    
+      
+    
+    /* Close Button */
+    
+    .close-button {
+    
     align-self: center;
+    
     margin-top: auto;
+    
     padding: 8px 12px;
+    
     background-color: #FFAD60;
+    
     color: white;
+    
     border: none;
+    
     border-radius: 4px;
+    
     cursor: pointer;
+    
     font-family: 'NoonnuBasicGothicRegular';
-}
-
-
-#notice{
+    
+    }
+    
+      
+      
+    
+    #notice{
+    
     text-align: left;
+    
     font-size: 30px;
+    
     margin-bottom: 20px;
-}
+    
+    }

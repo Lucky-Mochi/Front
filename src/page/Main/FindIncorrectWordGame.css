@@ -1,0 +1,89 @@
+.find-incorrect-word-game {
+
+    display: flex;
+    
+    flex-direction: column;
+    
+    align-items: center;
+    
+    margin: 20px;
+    
+    }
+    
+      
+    
+    .grid {
+    
+    display: grid;
+    
+    gap: 10px;
+    
+    }
+    
+      
+    
+    .grid-button {
+    
+    width: 80px;
+    
+    height: 80px;
+    
+    font-size: 18px;
+    
+    cursor: pointer;
+    
+    border-radius: 8px;
+    
+    background-color: #f0f0f0;
+    
+    color: #333;
+    
+    }
+    
+      
+    
+    .grid-button:hover {
+    
+    background-color: #ddd;
+    
+    }
+    
+      
+    
+    .start-button{
+    
+    font-family: 'NoonnuBasicGothicRegular';
+    
+    border-radius: 8px;
+    
+    width:140px;
+    
+    height: 30px;
+    
+    margin : 10px;
+    
+      
+    
+    }
+    
+      
+    
+    .end-button{
+    
+    font-family: 'NoonnuBasicGothicRegular';
+    
+    border-radius: 8px;
+    
+    width:180px;
+    
+    height: 30px;
+    
+    margin : 10px;
+    
+    }
+    
+    .gamesucess{
+    
+    font-family: 'NoonnuBasicGothicRegular';
+    
+    }
