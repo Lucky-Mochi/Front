@@ -123,7 +123,7 @@ function ChatRoom() {
 
     return (
       <div className='message_form'>
-        <form id='messageinput' onSubmit={handleSubmit}>
+        <form id='messageinput' onSubmit={(handleSubmit)}>
           <input
             placeholder='텍스트를 입력하세요'
             className='textinput'
